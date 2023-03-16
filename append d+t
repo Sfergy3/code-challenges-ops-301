@@ -1,0 +1,14 @@
+#!/bin/bash
+
+# Append date and time
+# Stanley L. Ferguson III
+# 14 Mar 2023
+# copy desired filepath to directory then append curent date and time.
+
+# Copy /var/log/syslog to working directory.
+
+cp /var/log/syslog .
+
+# append current date and time to the file
+
+/var/log/syslog --'date'
