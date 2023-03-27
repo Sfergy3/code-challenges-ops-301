@@ -1,3 +1,11 @@
+#!/usr/bin/env python3
+
+# code callennge 9
+# Stanley L. Ferguson III
+# 23MAR2023
+# use id statements to meet conditions
+
+
 # get a and b from user input
 a = int(input("Enter a value: "))
 b = int(input("Enter b value: "))
