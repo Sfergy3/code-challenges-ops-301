@@ -7,18 +7,16 @@
 
 # import libraries
 import os 
-
 # declare variables
-
 filepath = input("Please enter a file path\n")
-
-# declare funtion
-for (root, dirs, files) in os.walk(filepath):
-  
-    print("Root:", root)
-    
-    print("Directories: ", dirs)
-  
-    print("Files: ", files)
-
-   
+#read input
+print("You entered: " + filepath)
+# Declaration of functions
+def giveinfo(filepath):
+    for root, dirs, files in os.walk(path):
+        print("Root: ", root)
+        print("Sub-Directories = ", dirs)
+        print("Files = ", files)
+        print('-' * 10)
+# Call function
+giveinfo(path)
